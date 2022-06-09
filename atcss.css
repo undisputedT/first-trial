@@ -1,0 +1,301 @@
+body{
+  margin-bottom: 100px;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family:Bookman, URW Bookman L, serif;
+  color:black;
+
+}
+img{
+  display: block;
+  margin-right: 110%;
+  width:100%
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-bar{
+  background-color: rgb(255, 202, 95);
+  text-align: center;
+  width: 1583px;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: white
+
+}
+.menu-bar ul li{
+  width: 120px;
+  margin: 18px;
+  padding: 18px;
+
+}
+.menu-bar ul li a{
+  color:#fff;
+  text-decoration: none;
+}
+.active, .menu-bar ul li:hover{
+  background-color: rgb(253, 212, 129);
+  border-radius: 3px;
+
+}
+.sub-menu-1{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+  display:block;
+  position:absolute;
+  background-color: rgb(121, 151, 121);
+  margin-top: 15px;
+  margin-left: 15px;
+
+}
+#banner{
+ box-sizing: border-box;
+ background-color: white;
+ background-image: url(banner2.jpg);
+ height: 800px;
+ width: 1583px;
+ background-position: center;
+ margin-bottom: 50px;
+}
+#banner h1{
+  font-weight: bold;
+  font-size: 80px;
+  color: #fff;
+  font-family: Bookman, URW Bookman L, serif ;
+  margin-bottom: 15px;
+  padding-top: 250px;
+  padding-left: 500px;
+  
+}
+.contact{
+  background-color:rgba(173, 123, 29, 0.767);
+  color: white;
+  border-radius: 30px;
+  border-color: rgb(27, 2, 255, 0.541);
+  border-style:solid;
+  border:none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: box-shadow 0.16s;
+  text-align: top;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 700px;
+  margin-top: 10px;
+
+}
+.contact:hover{
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.16);
+}
+.contact:active{
+  opacity: 0.7;
+}
+#registration{
+    /* padding-left:550px; */
+    padding-bottom:20px;
+    color:black;
+    /* margin-right:10px; */
+    
+}
+.inner-reg{
+  width: 450px;
+  margin: 0 auto;
+}
+#registration h1{
+    padding-left:10px;
+    padding-bottom:10px;
+    width:450px;
+    font-size: 20px;
+    margin-top:15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 175px;
+    border-color: grey;
+    border-style: solid;
+}
+.age{
+  margin-left:93px;
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.inputcont{
+  margin-bottom: 15px;
+}
+.fname{
+  margin-left:36px;
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.lname{
+  margin-left:39px;
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.gender{
+  margin-left:62px;
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.email{
+  margin-left:70px;
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.phone{
+  margin-left:2px;
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.nationality{
+  margin-left:25px;
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.marital{
+  width:275px;
+  line-height: 25px;
+  border-style:solid;
+  border-radius:6px;
+  padding-left:5px;
+}
+.form-control{
+  width: 450px;
+  padding-left:14px;
+  padding-bottom:17px;
+  padding-top:17px;
+  border-radius:17px;
+  border-color: grey;
+  border-style: solid;
+  
+}
+.tweet{
+  background-color:grey;
+  color: white;
+  border-radius: 20px;
+  border-color: rgb(27, 2, 255, 0.541);
+  border: solid;
+  cursor: pointer;
+  font-weight: bold;
+  transition: box-shadow 0.16s;
+  text-align: top;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 300px;
+  width: 105px;
+
+  }
+  .tweet:hover{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.16) /* used to create a shadow behind the button */
+
+  }
+  .tweet:active{
+    opacity:0.7;
+  }
+  table{
+    color:black;
+    border-spacing: 35px; 
+    margin: 0 auto;
+  }
+  th{
+    text-align: center;
+  }
+  
+  table{
+    border: 1px solid black ;
+    border-radius: 3px;
+  }
+  /*
+  th, td{
+    padding: 10px 10px;
+  }
+  */
+#card-container{
+  width: 300px;
+  height: 430px;
+  background-color: #fff;
+  border-radius: 6px;
+  position: relative;
+  margin: 30px 40%;
+  box-shadow: 0px 1px 10px 1px;
+  transform: translate(0, 0);
+}
+.upper-container{
+  height: 150px;
+  background-color: rgb(240, 212, 156);
+} 
+.image-container{
+  background-color:#fff;
+  width: 80px;
+  height: 80px;
+  border-radius:50%;
+  padding: 1px;
+  transform: translate(100px, 100px);
+}
+.image-container > img{
+  background-color:#fff;
+  width: 80px;
+  height: 80px;
+  border-radius:50%;
+}
+.lower-container{
+  height:280px;
+  background-color: rgb(255, 202, 95);
+  text-decoration: none;
+  color: #fff;
+
+}
+.lower-text{
+  text-align:center;
+  padding-top: 40px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.lower-text h5{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.lower-text h4{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.lower-text h6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
